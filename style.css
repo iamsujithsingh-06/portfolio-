@@ -795,3 +795,58 @@ html {
   color: white;
   box-shadow: 0 0 20px #ff2a2a;
 }
+/* 📱 MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+
+  /* 🔥 HERO SECTION */
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image-wrapper {
+    transform: scale(0.7);
+  }
+
+  .center-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  /* 🔥 SKILLS ORBIT */
+  .skills-container {
+    transform: scale(0.6);
+  }
+
+  /* 🔥 PROJECTS */
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+    margin: 15px 0;
+  }
+
+  /* 🔥 CONTACT */
+  .contact-form-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .social-links {
+    gap: 15px;
+  }
+
+  /* 🔥 GENERAL FIX */
+  body {
+    overflow-x: hidden;
+  }
+
+}
